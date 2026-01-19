@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-color: #000;
+  --bg-color: #fff;
+  --border: 2px solid var(--main-color);
+  --accent-font: 'PressStart2P', sans-serif;
+  --main-font: 'Inter-Variable', sans-serif;
+  --font-h1-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --font-h2-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --font-h2-size-variable: 18px;
+  --main-font-weight: 400;
+  --font-variation-title: 715;
+  --font-variation-text: 410;
+  --bg-image:
+    repeating-linear-gradient(
+      rgba(211 211 211 / 0) 0 2px,
+      rgba(211 211 211 / 1) 2px 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(211 211 211 / 0) 0 2px,
+      rgba(211 211 211 / 1) 2px 4px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --width-conteiner: clamp(375px, 16.29rem + 30.52vw, 700px);
+  --text-shadow-color: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+  --contour-color: #000;
+  --animation-fill-color: #f00;
+  --accent-color: #000;
+}
