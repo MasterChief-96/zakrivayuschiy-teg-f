@@ -69,8 +69,7 @@
 .card {
   background-color: var(--bg-color);
   border: var(--border);
-  /* outline: var(--border); */
-  /* outline-offset: -2px; */
+ 
   padding-block-end: 25px;
 }
 
@@ -85,9 +84,7 @@
   position: relative;
   border-block-start: var(--border);
   border-block-end: var(--border);
-  /* box-sizing: border-box; */
-  /* outline: var(--border); */
-  /* outline-offset: -2px; */
+ 
 }
 
 .card__watermark {
