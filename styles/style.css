@@ -95,6 +95,7 @@
 
 @supports (text-stroke: 1px var(--color-light)) or (-webkit-text-stroke: 1px var(--color-light)) {
   .card__watermark {
+    text-shadow: none; 
     -webkit-text-stroke: 1px var(--color-light);
     text-stroke: 1px var(--color-light);
   }
